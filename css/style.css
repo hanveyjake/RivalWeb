@@ -5973,3 +5973,64 @@ a > img.fh5co-align-center {
   margin-right: auto; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* Ninkazi stuff begin */
+
+div.roster-banner
+{
+	text-align: center;
+}
+
+div.roster-content
+{
+}
+
+div.roster-entry-container
+{
+	border: 1px solid #00aeef;
+	padding-left: 4em;
+	padding-right: 4em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	margin-left: 4em;
+	margin-right: 4em;
+	margin-bottom: 1.5em;
+	height: 17em;
+}
+
+div.roster-image-container
+{
+	margin-right: 2em;
+	float: left;
+}
+
+div.roster-entry-text
+{
+}
+
+button.streambutton
+{
+	float: right;
+	margin-right: 2em;
+}
+
+iframe.streamframe
+{
+	margin-right: 2em;
+	margin-bottom: 2em;
+	height: 100px;
+}
+
+div.stream-div
+{
+	margin-bottom: 2em;
+	float: right;
+}
+
+h2.ingamename
+{
+	color: #818892;
+}
+
+/* Ninkazi stuff end */
