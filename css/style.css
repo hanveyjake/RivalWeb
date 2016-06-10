@@ -5984,19 +5984,21 @@ div.roster-banner
 
 div.roster-content
 {
+	columns: 2;
 }
 
 div.roster-entry-container
 {
-	border: 1px solid #00aeef;
+	border: 1px solid #818892;
 	padding-left: 4em;
 	padding-right: 4em;
 	padding-top: .5em;
 	padding-bottom: .5em;
 	margin-left: 4em;
 	margin-right: 4em;
-	margin-bottom: 1.5em;
 	height: 17em;
+	width: 35em;
+	border-radius: 10px;
 }
 
 div.roster-image-container
@@ -6031,6 +6033,28 @@ div.stream-div
 h2.ingamename
 {
 	color: #818892;
+	margin-left: 2em;
 }
 
+.shadow{
+box-shadow: inset 1px 0px 10px 0px #ABABAB;
+-webkit-box-shadow: inset 1px 0px 10px 0px #ABABAB;
+-moz-box-shadow: inset 1px 0px 10px 0px #ABABAB;
+-o-box-shadow: inset 1px 0px 10px 0px #ABABAB;
+}
+
+.biobox
+{
+	border: 1px solid; 
+	margin-left: 14em; 
+	border-radius: 10px; 
+	padding-bottom: 6em;
+}
+
+.nameracebox
+{
+	border: 1px solid; 
+	margin-left: 14em; 
+	border-radius: 10px;
+}
 /* Ninkazi stuff end */
