@@ -10,8 +10,7 @@
 	<title>Rival Gaming Streamers</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Rival Gaming Website" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
+	<meta name="keywords" content="Rival Gaming, Starcraft 2, esports" />
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content=""/>
@@ -90,15 +89,15 @@
 
 		<div class="container">
 			<div class="row" style="text-align: center;">
-				<iframe class="videoplayer" src="http://player.twitch.tv/?channel=polt" 
+				<iframe class="videoplayer" src="http://player.twitch.tv/?channel=imcuddlebear" 
 				height="423" width="752" frameborder="0" scrolling="no" allowfullscreen="" 
 				webkitallowfullscreen="" mozallowfullscreen=""></iframe>
 				<br>
 				<div style="text-align: center; padding-top: 2em;" >
-					<button id="selectNinkaziLink">Ninkazi's Stream</a> 
+					<button id="NinkaziTwitch">Ninkazi's Stream</a> 
 				</div>
 				<div style="text-align: center; padding-top: 2em;">
-					<button id="selectPoltLink">Polt's Stream</a> 
+					<button id="CuddlebearTwitch">Cuddlebear's Stream</a> 
 				</div>
 			</div>
 		</div>
@@ -122,8 +121,9 @@
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
 	<script>
-		$("#selectNinkaziLink").click(function() { $(".videoplayer").attr("src", "http://player.twitch.tv/?channel=Ninkazi") });
-		$("#selectPoltLink").click(function() { $(".videoplayer").attr("src", "http://player.twitch.tv/?channel=Polt") });
+
+	$("#NinkaziTwitch").click(function() { $(".videoplayer").attr("src", "http://player.twitch.tv/?channel=Ninkazi") });
+		$("CuddlebearTwitch").click(function() { $(".videoplayer").attr("src", "http://player.twitch.tv/?channel=imcuddlebear") });
 	</script>
 	</body>
 </html>
